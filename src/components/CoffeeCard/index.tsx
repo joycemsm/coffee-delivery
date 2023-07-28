@@ -1,5 +1,7 @@
 import { BoxCard, Card, Label, Price, PriceSymbol } from "./styles"
 
+import { CardCoffeeCart } from "../CardCoffeeCart";
+
 interface IProps {
   value: {
     img?: string;
@@ -12,8 +14,6 @@ interface IProps {
 
 export function CoffeeCard(props: IProps) {
   return (
-
-
     <Card>
       <img src={props.value.img} />
       <Label>
@@ -30,7 +30,7 @@ export function CoffeeCard(props: IProps) {
         <Price>
           <span>{props.value.price}</span>
         </Price>
-        <span>Add car</span>
+        <CardCoffeeCart />
       </BoxCard>
     </Card>
   )

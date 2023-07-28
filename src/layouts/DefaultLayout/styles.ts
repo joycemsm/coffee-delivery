@@ -7,4 +7,5 @@ export const LayoutContainer = styled.div`
   flex-direction: row;
   overflow: hidden;
   flex-wrap: wrap;
+ 
 `

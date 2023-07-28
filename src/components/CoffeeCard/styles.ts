@@ -6,7 +6,7 @@ export const Card = styled.div`
   align-items: center;
   border-radius: 6px 36px;
   padding: 16px;
-  margin: 1rem;
+  margin: 1.2rem;
   max-width: 256px;
   width: 256px;
   background: ${(props) => props.theme['neutral-100']}; 
@@ -64,6 +64,7 @@ export const BoxCard = styled.div`
   display: flex;
   flex-direction: row;
   align-items: center;
+  gap: 1.5rem;
 `
 
 export const Price = styled.div`
@@ -74,7 +75,7 @@ export const Price = styled.div`
   line-height: 130%;
   text-align: right;
   color: ${(props) => props.theme["neutral-800"]};
-   margin: 0.2rem;
+  margin-left: 0.1rem
 `
   
 export const PriceSymbol = styled.div`
