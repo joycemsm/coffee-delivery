@@ -34,8 +34,6 @@ export const ButtonAdd = styled.div`
   color:  ${(props) => props.theme["purple-700"]};
   cursor: pointer;
    
-  
-
   > span {
     color: ${(props) => props.theme["neutral-900"]};
     font-family: "Roboto";
